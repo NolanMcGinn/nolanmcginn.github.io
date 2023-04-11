@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="#00ff00" height="0" id="svg_5" opacity="0.5" stroke="#000000" width="0" x="46" y="69"/>
+  <rect fill="#00ff00" height="0" id="svg_6" opacity="0.5" stroke="#000000" width="0" x="214" y="275"/>
+  <rect fill="#00ff00" height="0" id="svg_7" opacity="0.5" stroke="#000000" width="0" x="112" y="175"/>
+  <rect fill="#00ff00" height="0" id="svg_8" opacity="0.5" stroke="#000000" width="0" x="48" y="77"/>
+  <rect fill="#00ff00" height="0" id="svg_9" opacity="0.5" stroke="#000000" width="0" x="94" y="85"/>
+  <ellipse cx="142" cy="191" fill="#00ff00" id="svg_10" opacity="0.5" rx="0" ry="0" stroke="#000000"/>
+  <ellipse cx="332" cy="277" fill="#00ff00" id="svg_11" opacity="0.5" rx="0" ry="0" stroke="#000000"/>
+  <rect fill="#ffffaa" height="432" id="svg_19" stroke="#000000" width="584" x="28" y="29"/>
+  <path d="m115.43,248.53l0,0c0,-115.98 89.99,-210 201,-210l0,0c53.31,0 104.43,22.12 142.13,61.51c37.69,39.38 58.87,92.8 58.87,148.49l0,0c0,115.98 -89.99,210 -201,210l0,0c-111.01,0 -201,-94.02 -201,-210zm100.5,0l0,0c0,57.99 45,105 100.5,105c55.5,0 100.5,-47.01 100.5,-105c0,-57.99 -45,-105 -100.5,-105l0,0c-55.5,0 -100.5,47.01 -100.5,105z" fill="#ff0000" id="svg_20" stroke="#000000" transform="matrix(1 0 0 1 0 0)"/>
+  <path d="m256.9,245.33l0,0c0,-31.38 25.44,-56.82 56.82,-56.82l0,0c15.07,0 29.52,5.99 40.18,16.64c10.66,10.66 16.64,25.11 16.64,40.18l0,0c0,31.38 -25.44,56.82 -56.82,56.82l0,0c-31.38,0 -56.82,-25.44 -56.82,-56.82zm28.41,0l0,0c0,15.69 12.72,28.41 28.41,28.41c15.69,0 28.41,-12.72 28.41,-28.41c0,-15.69 -12.72,-28.41 -28.41,-28.41l0,0c-15.69,0 -28.41,12.72 -28.41,28.41z" fill="#ff0000" id="svg_22" stroke="#000000"/>
+  <path d="m304.46,246.76l1.79,-5.56l4.69,-3.44l5.79,0l4.69,3.44l1.79,5.56l-1.79,5.56l-4.69,3.44l-5.79,0l-4.69,-3.44l-1.79,-5.56z" fill="#000000" id="svg_23" stroke="#000000" transform="matrix(1 0 0 1 0 0)"/>
+  <path d="m313.83,252.2l0.2,-0.62l0.52,-0.38l0.64,0l0.52,0.38l0.2,0.62l-0.2,0.62l-0.52,0.38l-0.64,0l-0.52,-0.38l-0.2,-0.62z" fill="#ffffaa" id="svg_24" stroke="#000000"/>
+  <text fill="#000000" font-family="Serif" font-size="24" id="svg_25" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1 0 0 1 0 0)" x="314" xml:space="preserve" y="89">10 points</text>
+  <text fill="#000000" font-family="Serif" font-size="24" id="svg_26" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1 0 0 1 0 0) matrix(0.775964 0 0 1 59.0707 0)" x="328.62" xml:space="preserve" y="175">15 points</text>
+  <text fill="#000000" font-family="Serif" font-size="24" id="svg_27" stroke="#000000" stroke-width="0" text-anchor="middle" transform="matrix(1 0 0 1 0 0) matrix(0.462661 0 0 0.700162 172.603 71.1677)" x="306" xml:space="preserve" y="199">20 points</text>
+ </g>
+</svg>
