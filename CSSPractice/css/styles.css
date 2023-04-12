@@ -1,0 +1,28 @@
+/*Nolan McGinn, April 12, 2023*/
+header{
+  background-color: orange;
+}
+footer{
+  background-color: orange;
+}
+p{
+  font-size: 20px;
+}
+ul{
+  font-size: 20px;
+}
+li{
+  font-size: 20px;
+}
+a:link{
+  color:blue; 
+}
+a:visited{
+  color:blueviolet;
+}
+a:hover{
+  color:darkmagenta;
+}
+a:active{
+  color:chartreuse;
+}
