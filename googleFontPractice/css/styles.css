@@ -1,9 +1,0 @@
-/* Practice CustomFonts Style Sheet */
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway:wght@200&display=swap');
-
-.websafe{
-    font-family: 'Raleway', sans-serif;
-}
-.google {
-    font-family: 'Oswald', sans-serif;
-}
