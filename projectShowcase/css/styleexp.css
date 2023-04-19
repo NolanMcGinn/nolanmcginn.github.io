@@ -1,0 +1,33 @@
+.projects{
+  width: 60%;
+  margin: 0 auto; 
+}
+.projectBox{
+  background: #36454F;
+  border: 3px solid #000000;
+  float: left;
+  margin: 50px;
+  text-align: center;
+  width: 20%;
+}
+.projectBox img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.projectBox h3{
+  background-color: lightblue;
+  padding: 5px;
+}
+footer{
+  clear:left
+}
+button{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+  position: bottom;
+}
+button:hover{
+  background-color: lightcoral;
+}
