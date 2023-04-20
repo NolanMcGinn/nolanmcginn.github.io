@@ -1,0 +1,54 @@
+/* Nolan McGinn, Ethan
+April 20, 2023*/
+@font-face {
+  font-family: 'roboto';
+  src: url('../fonts/roboto-italic-webfont.woff')
+  format('woff'),
+        url('../fonts/roboto-italic-webfont.woff2')
+        format('woff2')
+}
+
+#outerwrapper{
+  border-radius: 15%;
+  width:70%;
+  background: rgba(243,205,170,0.4);
+  margin:auto;
+}
+main{
+  background:linear-gradient(#FFFFFF, #F0F9E6);
+  padding: 10px;
+  margin: 20px;
+  border-radius: 2em;
+  font-size: 1.25em;
+}
+h1{
+  font-family: "Pacifico", 'Times New Roman', sans-serif;
+  font-size: 4em;
+  
+}
+h2{
+font-family: "roboto", 'sans-serif', serif;
+font-style: italic;
+font-size: 2em;
+}
+body{
+  background-image: url(../images/jewelry.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+footer{
+  padding:10px;
+  text-align: center;
+}
+img{
+float: left;
+border-radius: 50%;
+}
+.addrightmargin{
+  margin-right: 10%;
+}
+nav ul{
+  list-style-type: none;
+  font-size: 1.5em;
+  clear:left;
+}
