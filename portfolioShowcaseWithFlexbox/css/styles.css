@@ -1,0 +1,19 @@
+header{
+  padding-bottom: 10px;
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Courier New', Courier, monospace;
+  border: solid;
+  border-radius: 150%;
+  background: linear-gradient(to top left, #30D5C8, #FFFF00);
+}
+body{
+background-color: lightgray;
+}
+header ul{
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+}
+
