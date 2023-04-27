@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!---Nolan McGinn
+       Date: 04/26/2023-->
+<html Lang = "en">
+  <head>
+    <title>Nolan McGinn Portfolio Contact</title>
+    <meta charset="UTF-8">
+    <meta name = "description" content = "Nolan McGinn Software Development student">
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+    <meta name = "keywords" content = "Contact">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/stylecontact.css" >
+  </head>
+  <body>
+    <header role="banner">
+      <a href="index.html"><img class="inital" src="images/nm.jpg" alt="image of intitals" width="90" height="90"></a>
+        <h1>Nolan McGinn</h1>
+        <nav class="main-nav">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="experience.html">Experience</a></li>
+               <li><a href="contact.html">Contact</a></li>
+             </ul>
+          </nav>
+      </header>
+      <fieldset>
+        <legend><h2>Contact Me</h2></legend> 
+        <form action="mailto:nolan.mcginn831@gmail.com?subject=Portfolio" enctype="text/plain" method="POST">
+        <div>
+        <label for="name">First name:</label>
+        <input type="text" name="First-Name " id="name" placeholder="First name" required>
+        </div>
+        <div>
+        <label for="lastName">Last name:</label>
+        <input type="text" name="Last-Name " id="lastName" placeholder="Last name" required>
+        </div>
+        <div>
+         <label for="email">Email:</label>
+          <input type="email" name="Email " id="email" placeholder="Email" required>
+        </div>
+        <div>
+          <label for="phone">Phone Number:</label>
+          <input type="tel" name="Phone " id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        </div>
+      </fieldset>
+      <fieldset>
+       <legend><h2>Opportunities</h2></legend>
+        <label for="type">Type of Position</label>
+        <select name="type" id="type">
+        <option value="full-time">Full-Time</option>
+        <option value="part-time">Part-Time</option>
+        <option value="internship">Internship</option>
+        </select>
+      <br><br>
+      <p>How did you find me?</p>
+          <input type="radio" name="radio-option1" id="LinkedIn" value="LinkedIn"/>
+          <label for="LinkedIn">LinkedIn</label>
+          <input type="radio" name="radio-option2" id="Job-Fair" value="Job-Fair"/>
+          <label for="Job-Fair">Job Fair</label>
+          <input type="radio" name="radio-option3" id="CWI"
+         value="CWI"/>
+          <label for="CWI">CWI Corporate Partner</label>
+        <div>
+          <label>Comments:</label>
+          <textarea cols="100" name="Comments " placeholder="Any questions or comments?"></textarea>
+        </div>
+      </fieldset>
+        <input type="submit" id="submit" value="Submit" class="button">
+    </form>
+      <hr>
+      <footer>
+         <a href="https://github.com/" target="_blank"><img src="images/gitHub.png" alt="gitHub logo"></a>
+        <a href="https://www.linkedin.com/" target="_blank" ><img src="images/linkedin.png" alt="Linkedin logo"></a>
+      </footer>
+  </body>
+</html>
+
+  
