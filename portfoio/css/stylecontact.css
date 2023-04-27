@@ -1,0 +1,15 @@
+div{
+  margin:15px;
+}
+input{
+ display: flex;
+ padding:5px;
+ border: 1px solid;
+ transition:all .5s ease ;
+}
+input:focus{
+  font-size:1.15rem;
+  padding: 10px;
+  border:2px solid black;
+  outline:none;
+}
