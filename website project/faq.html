@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Moat Builder</title>
+    <link rel="stylesheet" href="css/faq.css">
+    <link rel="stylesheet" type="text/css" href="jquery-ui-1.13.2.custom/jquery-ui.min.css">
+    <link src="jquery-ui-1.13.2.custom/jquery-ui.js">
+</head>
+<body>
+  <header>
+    <h1 class="burning">Moat Builders</h1>
+  
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="showcase.html">Showcase</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <h1>Frequently asked questions</h1>
+    <div id="accordion">
+    <h3><a>Is this legal?</a></h3>
+    <div>
+      <p>Yes this is 100% legal and we get all the permits needed for you to do this.</p>
+    </div>
+    <h3><a>How do we keep the sharks alive?</a></h3>
+    <div>
+      <p>There are a few ways like:</p>
+      <ul>
+        <li>Feeding them fish you can buy or fish for.</li>
+        <li>Give them roadkill/Animals you legally hunted.</li>
+        <li>Or we can work out a deal and come feed them for you everyday.</li>
+      </ul>
+    </div> 
+    <h3><a>How long can the sharks live for?</a></h3>
+    <div>
+     <p>The sharks can live up to 30+ years if you are taking care of them and feeding them!</p>
+    </div>
+  </div>
+  <div id="dialog" title="Some help">To open and close the faqs just simply click on them</div>
+  </section>
+<script src="jquery-ui-1.13.2.custom/jquery-ui.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="jquery-ui-1.13.2.custom/jquery-ui.min.js"></script>
+<script src="Sinetheta-burn-eaf07c1/jquery.burn.min.js"></script>
+<script src="Sinetheta-burn-eaf07c1/jquery.burn.js"></script>
+ <!-- <script src="js/faq.js"></script>-->
+  <script>
+    $(document).ready(()=> {
+      $("#accordion").accordion({
+        event: "click",
+        heightStyle: "content",
+        collapsible: true,
+        active: false
+      })
+    })
+    $(document).ready(function() {
+     $('.burning').burn();
+    });
+    $(function(){
+     $("#dialog").dialog({
+      autoOpen:true,
+  });
+  $("#opener").click(function(){
+    $("#dialog").dialog("open");
+  });
+});
+  </script>
+</body>
+</html>
