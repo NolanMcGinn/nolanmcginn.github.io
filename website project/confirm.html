@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Moat Builder</title>
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+  <header>
+    <h1 class="burning">Moat Builders</h1>
+  
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="showcase.html">Showcase</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Thank you</h1>
+    <p>We will be getting in contact with you with your selected method soon and we hope you will enjoy this new addition to your homes protection. We are very exited to get in contact and meet with you great people who just want to keep your own property safe</p>
+    <p>If you would like us to contact you a certain day just select the date before going back to the home page :) <input type="text" id="datepicker"></p> 
+    <p><a href="index.html">Go back</a></p>
+  </main>
+  <script src="jquery-ui-1.13.2.custom/jquery-ui.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="jquery-ui-1.13.2.custom/jquery-ui.min.js"></script>
+<script src="Sinetheta-burn-eaf07c1/jquery.burn.min.js"></script>
+<script src="Sinetheta-burn-eaf07c1/jquery.burn.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script>
+  $(document).ready(function() {
+     $('.burning').burn();
+    });
+    $( function() {
+      $( "#datepicker" ).datepicker();
+    } );
+    
+</script>
+</body>
+</html>

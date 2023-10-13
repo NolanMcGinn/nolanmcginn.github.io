@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'cantarell';
+  src: url('../Fonts/cantarell-bold-webfont.woff')
+  format('woff'),
+        url('../Fonts/cantarell-bold-webfont.woff2')
+        format('woff2');
+}
+header{
+  text-align: center;
+  font-family: "cantarell", "Times New Roman";
+  
+}
+.main-nav ul{
+  list-style-type: none;
+  width:100%;
+  overflow: hidden;
+  background-color:lightseagreen;
+  display: flex;
+  padding:0px;
+}
+.main-nav li{
+  border-right: 1px solid whitesmoke;
+  width:100%;
+}
+.main-nav a{
+  display:block;
+  color: blue;
+  text-align: center;
+  padding:14px 16px;
+  text-decoration: none;
+}
+.index {
+  text-align: center;
+  font-size: 1.1em;
+}
+.burning{
+  color: white; 
+  font-weight: bold;
+}
+h1{
+  font-family: "cantarell", "Times New Roman";
+}
+body{
+  background: rgb(69,243,252);
+  background: linear-gradient(90deg, rgba(69,243,252,1) 19%, rgba(55,204,89,1) 51%, rgba(249,170,36,1) 83%);
+}
+ul{
+  color:red;
+}
+body{
+  text-align: center;
+}
+span{
+  color:red;
+}
+textarea{
+  height:5em;
+  width: 20em;
+}
