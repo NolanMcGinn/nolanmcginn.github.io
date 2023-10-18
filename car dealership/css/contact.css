@@ -1,0 +1,52 @@
+body{
+  background-color: black;
+}
+header{
+  color: darkmagenta;
+  text-align: center;
+  font-size: 55px;
+}
+.main-nav ul{
+  list-style-type: none;
+  width:100%;
+  overflow: hidden;
+  background-color:grey;
+  display: flex;
+  padding:0px;
+}
+.main-nav li{
+  border-right: 1px solid whitesmoke;
+  width:100%;
+}
+.main-nav a{
+  display:block;
+  color:blue;
+  text-align: center;
+  padding:14px 16px;
+  text-decoration: none;
+}
+.index {
+  text-align: center;
+  font-size: 1.1em;
+}
+video{
+  display: block;
+  margin: auto;
+}
+p{
+  color: red;
+  text-align: center;
+}
+label{
+  color:blueviolet;
+}
+div{
+  text-align: center;
+}
+h1{
+  color: aqua;
+  text-align: center;
+}
+span{
+  color: red;
+}

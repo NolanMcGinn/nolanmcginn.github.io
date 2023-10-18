@@ -1,0 +1,48 @@
+img{
+  height: 300px;
+  width: 450px;
+  margin-left: 38%;
+}
+#slides img{
+  display: none;
+  text-align: center;
+}
+body{
+  background-color: black;
+}
+header{
+  color: darkmagenta;
+  text-align: center;
+  font-size: 55px;
+}
+.main-nav ul{
+  list-style-type: none;
+  width:100%;
+  overflow: hidden;
+  background-color:grey;
+  display: flex;
+  padding:0px;
+}
+.main-nav li{
+  border-right: 1px solid whitesmoke;
+  width:100%;
+}
+.main-nav a{
+  display:block;
+  color:blue;
+  text-align: center;
+  padding:14px 16px;
+  text-decoration: none;
+}
+.index {
+  text-align: center;
+  font-size: 1.1em;
+}
+p{
+  color: red;
+  text-align: center;
+}
+.responsive{
+  width: 70%;
+  height: auto;
+}
