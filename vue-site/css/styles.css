@@ -1,0 +1,26 @@
+.main-nav ul{
+    list-style-type: none;
+    width:100%;
+    overflow: hidden;
+    background-color:lightseagreen;
+    display: flex;
+    padding:0px;
+  }
+  .main-nav li{
+    border-right: 1px solid whitesmoke;
+    width:100%;
+  }
+  .main-nav a{
+    display:block;
+    color: blue;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+  }
+  h1{
+    text-align: center;
+  }
+  img{
+    width: 500px;
+    height: 500px;
+  }
