@@ -1,0 +1,130 @@
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .parallax-1 {
+      width: 100%;
+        height: 600px;
+        background: url(
+          ./../images/polarbear1.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }
+
+    .parallax-1 h2 {
+        margin: auto;
+        position: relative;
+        left: 500x;
+        top: 300px;
+        color: black;
+        text-align: center;
+    }
+
+    .parallax-2 {
+        width: 100%;
+        height: 600px;
+        background: url(
+          ./../images/home.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }
+
+    .parallax-2 h2 {
+        margin: auto;
+        position: relative;
+        left: 500x;
+        top: 300px;
+        color: black;
+        text-align: center;
+        font-size: 30px;
+        font-family: Verdana;
+    }
+    .parallax-3 {
+      width: 100%;
+      height: 600px;
+      background: url(
+        ./../images/babypolarbear.jpg);
+      background-size: 100% 100%;
+      background-attachment: fixed;
+  }
+    .parallax-3 h2 {
+      margin: auto;
+      position: relative;
+      left: 500x;
+      top: 300px;
+      color: black;
+      text-align: center;
+      font-size: 30px;
+      font-family: Verdana;
+  }
+  .parallax-4 {
+    width: 100%;
+    height: 600px;
+    background: url(
+      ./../images/unit.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+  .parallax-4 h2 {
+      margin: auto;
+      position: relative;
+      left: 500x;
+      top: 300px;
+      color: black;
+      text-align: center;
+      font-size: 30px;
+      font-family: Verdana;
+    }
+    .parallax-5 {
+      width: 100%;
+      height: 600px;
+      background: url(
+        ./../images/babypolarbears.jpg);
+      background-size: 100% 100%;
+      background-attachment: fixed;
+  }
+    .parallax-5 h2 {
+      margin: auto;
+      position: relative;
+      left: 500x;
+      top: 300px;
+      color: black;
+      text-align: center;
+      font-size: 30px;
+      font-family: Verdana;
+    }
+
+    .para-1 {
+        padding: 50px;
+        background-color: blue;
+        color: white;
+        font-size: 17px;
+    }
+    
+    .para-2 {
+        text-align: center;
+        padding: 25px;
+        font-size: 17px;
+        background-color: blue;
+        color: white;
+    }
+      .para-3 {
+        padding: 50px;
+        background-color: blue;
+        color: white;
+        font-size: 17px;
+    }
+      .para-4 {
+        padding: 50px;
+        background-color: blue;
+        color: white;
+        font-size: 17px;
+    }
+      .para-5 {
+        padding: 50px;
+        background-color: blue;
+        color: white;
+        font-size: 17px;
+    }
