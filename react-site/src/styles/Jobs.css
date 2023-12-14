@@ -1,0 +1,47 @@
+.job {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.jobList {
+  width: 70vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}
+
+.jobItem {
+  border-radius: 15px;
+  width: 350px;
+  height: 150px;
+  margin: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+.jobItem:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+
+.jobItem h1,
+.menuItem p {
+  margin-left: 20px;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1300px) {
+  .jobList {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .jobList {
+    grid-template-columns: 1fr;
+  }
+}
